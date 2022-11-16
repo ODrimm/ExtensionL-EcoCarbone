@@ -1,0 +1,10 @@
+{
+    "manifest_version": 3,
+    "name": "L'eco carbone",
+    "description": "Extension pour analyser l'empreinte carbonne de nos commandes internet",
+    "version": "1.0",
+    "action": {
+      "default_popup": "index.html",
+      "default_icon": "/Images/Group24LogoEC.png"
+    }
+  }
