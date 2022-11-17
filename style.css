@@ -1,0 +1,360 @@
+/*CORPS*/
+/*@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500i,900,900i');*/
+
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+html{
+    overflow: hidden;
+}
+
+body{
+    background: transparent;    
+    margin: 0;
+    font-family:'Poppins';
+}
+
+.container{
+    width: 480px;
+    height: 456px;
+    background-color: #F9F2E4;
+    border-radius: 12px;
+}
+
+.Logo{
+    position: absolute;
+    margin-left: 4.2%;
+    margin-top: 4.1%;
+}
+
+.feuille1{
+    position:absolute;
+    left: 347px;
+}
+
+.feuille2{
+    position: absolute;
+    top: 350px;
+    left: -80px;
+}
+
+.croix{
+    position: absolute;
+    left: 440px;
+    top: 14px;
+
+}
+
+/*PAGE LOADING*/
+
+#Loading{
+    /*ICI PR CHANGER ENTRE LOADING ET PAGE DATA*/
+    /*display: none;*/
+    /*ICI PR CHANGER ENTRE LOADING ET PAGE DATA*/
+    position: absolute;
+    top: 168px;
+    left: 50%;
+    width: 272px;
+}
+
+.loadingtxt{
+    text-align: center;
+    transform: translateX(-50%);
+}
+
+.loadingimg{
+    Width: 84px;
+    Height: 72px;
+    transform: translateX(-50%);
+}
+
+/*PAGE DATA*/
+
+#Data{
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    column-gap: 39px;
+    margin-left: 75px;
+    position: relative;
+    top: 120px;
+    overflow-y: auto;
+}
+
+.dataset{
+    overflow: hidden;
+    background-color: white;
+    width: 304px;
+    height: 269px;
+    outline: 2px solid #404D66;
+    border-radius: 12px;
+    outline-offset: -1px;
+}
+
+.dataset .top{
+    background-color: #404D66;
+    color: white;
+    position: relative;
+    margin-top: 0;
+    top: 0;
+    height: 49px;
+    
+}
+
+.dataset .top h2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    position: relative;
+    margin: 0;
+    padding: 5px;
+    padding-top: 12px;
+}
+
+.dataset .content .logos{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 90px;
+    margin-right: 90px;
+    margin-top: 12px;
+}
+
+.dataset .content .logos img{
+    width: 30px;
+}
+
+
+
+.dataset .content .parcours img{
+    margin-left: 22px;
+    position: relative;
+    top: -27px;
+}
+
+
+.dataset .content .parcours .distance{
+    position: relative;
+    background-color: #404D66;
+    color: white;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 100%;
+    border-radius: 4px;
+    width: fit-content;
+    left: 32px;
+    z-index: 1;
+}
+
+.dataset .content .parcours .distance h3{
+    position: relative;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    width: max-content;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+.dataset2{
+    overflow: hidden;
+    background-color: white;
+    width: 304px;
+    height: 269px;
+    outline: 2px solid #555F4F;
+    border-radius: 12px;
+    outline-offset: -1px;
+}
+
+.dataset2 .top{
+    background-color: #555F4F;
+    color: white;
+    position: relative;
+    margin-top: 0;
+    top: 0;
+    height: 49px;
+    
+}
+
+.dataset2 .top h2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    position: relative;
+    margin: 0;
+    padding: 5px;
+    padding-top: 7px;
+    line-height: 100%;
+}
+
+.dataset2 img{
+    position: absolute;
+    top: 49px;
+}
+
+.dataset2 .content{
+    display: flex;
+    flex-wrap: wrap;
+    z-index: 1;
+    position: relative;
+    top: 65px;
+    column-gap: 19px;
+}
+
+.dataset2 .p1{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 80px;
+    line-height: 80%;
+    letter-spacing: -0.06em;
+    margin: 0;
+    margin-left: 39px;
+}
+
+.dataset2 .p2{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 100%;
+    letter-spacing: -0.06em;
+    height: fit-content;
+    margin: 0;
+    position: relative;
+    top: 32px;
+}
+
+.dataset2 .p3{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    text-align: center;
+    letter-spacing: -0.06em;
+    color: rgba(34, 34, 34, 0.66);
+    height: fit-content;
+    margin: 0;
+    margin-left: 41px;
+}
+
+
+
+
+
+
+
+
+
+
+.dataset3{
+    overflow: hidden;
+    background-color: white;
+    width: 304px;
+    height: 269px;
+    outline: 2px solid #5F4F5D;
+    border-radius: 12px;
+    outline-offset: -1px;
+    margin-right: 50px;
+}
+
+.dataset3 .top{
+    background-color: #5F4F5D;
+    color: white;
+    position: relative;
+    margin-top: 0;
+    top: 0;
+    height: 49px;
+    
+}
+
+.dataset3 .top h2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    position: relative;
+    margin: 0;
+    padding: 5px;
+    padding-top: 12px;
+}
+
+.dataset3 .info1{
+    display: flex;
+    margin-left: 25px;   
+}
+
+.dataset3 .info1 img{
+    height: 70px;
+    width: 70px;
+}
+
+.dataset3  .info1 h4{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 100%;
+    text-align: right;
+    letter-spacing: -0.06em;
+    position: relative;
+    left: -40px;
+}
+
+.dataset3 .info2{
+    display: flex;
+    margin-left: 42px;   
+    position: relative;
+    top: -15px;
+}
+
+.dataset3 .info2 img{
+    height: 70px;
+    width: 70px;
+    position: relative;
+    left: -30px;
+    top: -3px;
+}
+
+.dataset3  .info2 h4{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: -0.06em;
+    position: relative;
+    z-index: 1;
+}
+
+.dataset3 h3{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    text-align: center;
+    letter-spacing: -0.06em;
+    width: 301px;
+    color: rgba(34, 34, 34, 0.66);
+    position: relative;
+    top: -9px;
+    margin-bottom: -2px;
+}
+
+
+
+
+
+
+
+

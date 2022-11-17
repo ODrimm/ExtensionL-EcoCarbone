@@ -3,6 +3,11 @@
     "name": "L'eco carbone",
     "description": "Extension pour analyser l'empreinte carbonne de nos commandes internet",
     "version": "1.0",
+    "icons": {
+      "16" : "/images/Logo2.png",
+      "48": "/images/Logo2.png",
+      "128": "/images/Logo2.png"
+      },
     "action": {
       "default_popup": "index.html"
     }

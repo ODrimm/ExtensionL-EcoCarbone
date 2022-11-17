@@ -5,10 +5,77 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
     <title>L'eco carbone</title>
 </head>
 <body>
-    
+    <div class="container" id="container">
+        <img src="/Images/Logo.png" alt="Logo Eco Carbone" class="Logo">
+        <img src="/Images/Feuille1.png" alt="Déco feuille" class="feuille1">
+        <img src="/Images/Feuille2.png" alt="Déco feuille" class="feuille2">
+        <img src="/Images/Croix.png" alt="Croix quitter l'extension" class="croix">
+        <div id="Loading">
+            <h2 class="loadingtxt">Analyse de la page en cours...<br> 
+                Veuillez patienter.
+            </h2>
+            <img src="/Images/loading.gif" alt="Image chargement" class="loadingimg">
+        </div>
+        <div id="Data">
+            <div class="dataset">
+                <div class="top">
+                    <h2>Le trajet de votre colis :</h2>
+                </div>
+                <div class="content">
+                    <div class="logos">
+                        <img src="/Images/Plane.svg" alt="Icone avion">
+                        <img src="/Images/boat.svg" alt="Icone bateau">
+                        <img src="/Images/truck.svg" alt="Icone camion">
+                    </div>
+                    <div class="parcours">
+                        <div class="distance">
+                            <h3 id="distance"> 5523 kilomètres parcourus </h3>
+                        </div>
+                        <img src="/Images/map.png" alt="Carte du trajet">
+                    </div>
+                </div>
+            </div>
+            <div class="dataset2">
+                <div class="top">
+                    <h2>Quantitée de CO² rejeté par la livraison :</h2>
+                </div>
+                <img src="/Images/feuille3.png" alt="Décoration feuille">
+                <div class="content">
+                    <p class="p1" id="conso">
+                        112
+                    </p>
+                    <p class="p2">
+                        Tonnes
+                    </p>
+                    <p class="p3">
+                        Rejetées pour votre trajet
+                    </p>
+                </div>
+            </div>
+            <div class="dataset3">
+                <div class="top">
+                    <h2>Le point culture :</h2>
+                </div>
+                <div class="content">
+                    <div class="titre">
+                        <h3 id="titre">Avec 112 tonnes de CO² on pourrait</h3>
+                    </div>
+                    <div class="info1">
+                        <img src="/Images/maison.png" alt="Image maison">
+                        <h4 id="menages">Faire vivre 20 ménages pendant 1 an</h4>
+                    </div>
+                    <div class="info2">
+                        <h4 id="repas">Produire 1900 repas végétariens</h4>
+                        <img src="/Images/repas.png" alt="Image repas">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 <script src="/script.js"></script>
 </html>
